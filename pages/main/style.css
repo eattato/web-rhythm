@@ -26,11 +26,7 @@
     width: 100%;
 }
 
-.record_frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.record_img {
     -webkit-mask-image: url("../../resources/mask.png");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
