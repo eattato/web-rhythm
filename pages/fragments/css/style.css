@@ -1,0 +1,36 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6E1C3;
+    height: 100vh;
+}
+
+.button {
+    background-color: #E9A178;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    transition: all ease 0.3s;
+}
+.button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,36 @@
+.main_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 400px;
+}
+
+.title {
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.record {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.record img {
+    position: absolute;
+    width: 100%;
+}
+
+.record_img {
+    /* mask-image: url("../../resources/mask_2.png");
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%; */
+    -webkit-mask-image: url("../../resources/mask.png");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+}
