@@ -21,6 +21,7 @@ $().ready(() => {
         }
         loading.find("div").text(ls);
     }, 100);
+    loading.css({display: "none"});
 
     let record = $(".record");
     let recordRotation = 0;
