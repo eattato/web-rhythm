@@ -13,11 +13,16 @@ li {
 }
 
 body {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F6E1C3;
     height: 100vh;
+}
+
+body > * {
+    position: absolute;
 }
 
 .button {
